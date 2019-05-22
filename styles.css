@@ -1,0 +1,64 @@
+body {display: flex;
+      flex-direction: column;
+      background-color: white;
+     }
+main {display: flex;
+      flex-direction: row;
+      flex: auto;
+      background-color: white;
+     }
+article {flex: 2;
+	 overflow-y: auto;
+    }
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1{
+    font-size: 350%;
+    text-align: center;
+    line-height: 6px;
+    height: 6px;
+}
+
+.ul{  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.li{
+    float: left;
+}
+.li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.li a:hover {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+.twitter-share-button { 
+    vertical-align: middle;
+}
+
+.fb-share-button{
+    vertical-align: middle;
+}
+
+
+
+
+/*p,.center{ text-align: center}*/
